@@ -1,0 +1,22 @@
+{
+    "name": "mvsvolkov/article-content-provider-bundle",
+    "description": "Генератор контента статьи для курса Skillbox",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Волков Михаил",
+            "email": "mvsvolkov@mvsvolkov.ru",
+            "homepage": "https://mvsvolkov.ru",
+            "role": "Creator"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CatCasCarSkillboxSymfony\\ArticleContentProviderBundle\\": "src"
+        }
+    }
+}
